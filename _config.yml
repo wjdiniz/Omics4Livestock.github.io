@@ -1,0 +1,94 @@
+# Configs for Omics4Livestock
+
+title: " "
+name: "W.J. Diniz"
+email: w.dasilvadiniz@ndsu.edu
+url: "https://github.com/wjdiniz/omics4livestock.github.io"
+repository: "wjdiniz/omics4livestock.github.io"
+
+include:
+  - _pages
+  - assets
+  - index.html
+exclude:
+  - TODO.md
+  - README.md
+  - "*.org"
+  - "*ltximg*"
+
+plugins:
+  - jekyll-feed
+  - jekyll-remote-theme
+  - jekyll-include-cache
+
+# Build settings
+markdown: kramdown
+theme: "minimal-mistakes-jekyll"
+remote_theme: "mmistakes/minimal-mistakes"
+minimal_mistakes_skin: "contrast"
+  
+# settings for author profile
+author:
+  name         : "W. J. Diniz"
+  avatar       : "/assets/images/WDINIZ.jpg"
+  bio          : "Translating numbers into knowledge to decipher livestock genome regulation"
+  location     : "Fargo, ND"
+  github : wjdiniz
+  linkedin: #
+  email  : w.dasilvadiniz@ndsu.edu
+#  links:
+#    - label: "ORCID"
+#      icon: "fab fa-orcid"
+#      url: "https://orcid.org/0000-0003-1082-5535"
+# # comments by disqus
+comments:
+  provider: #"disqus"
+  disqus:
+    shortname: #"pwills-com"
+
+analytics:
+  provider: #"google"
+  google:
+    tracking_id: #"UA-116208936-1"
+
+
+# pagination for blog page
+paginate: 10 # number of posts to show
+paginate_path: /page:num/
+
+# default YAML front matter
+defaults:
+  # all
+  - scope:
+      path: ""
+    values:
+      layout: single
+      mathjax: true
+      author_profile: true
+      class: wide
+      title: " "
+      title_separator: "|"
+  # posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      toc: true
+      toc_label: "Contents"
+      layout: single
+      read_time: false
+      comments: true
+  # portfolio
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      author_profile: false
+      excerpt: ""
+      sidebar:
+        nav: "portfolio"
+
+# collections
+collections:
+  portfolio:
+    output: true

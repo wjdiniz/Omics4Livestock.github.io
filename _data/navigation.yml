@@ -1,0 +1,35 @@
+# the masthead
+main:
+  - title: "Home"
+    url: /
+  - title: "About"
+    url: /about/
+  - title: "Portfolio"
+    url: /portfolio/
+  - title: "Publications"
+    url: /publist/ 
+  - title: "Resume"
+    url: /assets/docs/CV_WellisonDiniz_2020.pdf
+  # - title: "Blog"
+  #   url: /blog/
+
+# sidebar for portfolio
+portfolio:
+  - title: "Research"
+    children:
+#      - title: "Machine Learning on AWS"
+#        url: /portfolio/coming/
+      - title: "Fetal programming"
+        url: /portfolio/fetal_coming/
+      - title: "Genetic basis of meta quality"
+        url: /portfolio/coming/
+
+  - title: "Teaching"
+    children:
+      - title: "Special topics in Livestock Genomics & Bioinformatics"
+        url: /portfolio/coming/
+
+  - title: "Tutorials"
+    children:
+      - title: "Tutorials"
+        url: /portfolio/coming_tutorials/
