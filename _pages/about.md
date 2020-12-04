@@ -13,7 +13,7 @@ date: December 4, 2020
 <img src="{{ "/assets/images/Aboutme2.jpg" | absolute_url }}"
 width="50%" hspace="20" align="right">
   
-Under development
+Under development [1] [2]
 
 [^fnote2]: After graduating from Reed, I spent some time living at
 	[Great Vow Zen Monastery][3], where we followed a daily schedule of work and
