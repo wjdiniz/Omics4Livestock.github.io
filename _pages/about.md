@@ -2,7 +2,7 @@
 title: ""
 author_profile: true
 header:
-  overlay_image: /assets/images/Aboutme2.jpg
+  overlay_image: /assets/images/Aboutme.jpg
   caption: "Photo Credit: **Hans-Peter Gauster** https://unsplash.com/photos/3y1zF4hIPCg"
 permalink: /about/
 date: December 4, 2020
@@ -10,10 +10,11 @@ date: December 4, 2020
 
 # .....
 
-<img src="{{ "/assets/images/Aboutme.jpg" | absolute_url }}"
+<img src="{{ "/assets/images/Aboutme2.jpg" | absolute_url }}"
 width="50%" hspace="20" align="right">
   
-Under development [1]
+Under development
+
 
 
 [1]: mailto: w.dasilvadiniz@ndsu.edu
