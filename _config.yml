@@ -30,7 +30,7 @@ minimal_mistakes_skin: "contrast"
 # settings for author profile
 author:
   name         : "W. J. Diniz"
-  avatar       : "/assets/images/main.jpg"
+  avatar       : "/assets/images/WDiniz.jpg"
   bio          : "Translating numbers into knowledge to decipher livestock genome regulation"
   location     : "Fargo, ND"
   github : wjdiniz
